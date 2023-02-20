@@ -6,3 +6,4 @@ Turtle project on Python
 4. Turtle_random_walk
 5. Turtle_spirograph
 6. Turtle_hirst_painting
+7. Turtle_race
