@@ -4,6 +4,7 @@ import random
 t.colormode(255)
 Donatello = t.Turtle()
 
+
 color_list = [(214, 164, 117),
               (141, 50, 107),
               (165, 170, 38),

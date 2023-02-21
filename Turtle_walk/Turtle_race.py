@@ -10,6 +10,7 @@ screen_x = 500
 screen_y = 500
 screen = Screen()
 screen.setup(screen_x, screen_y)
+screen.title("Turtle race")
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color: ")
 turtles = []
 
@@ -33,7 +34,7 @@ while is_race_on:
         if turtle.xcor() > 230:
             win = turtle.pencolor()
             if win == user_bet:
-                print(f"Youve won! The {win} turtle is winner!")
+                print(f"You've won! The {win} turtle is winner!")
                 is_race_on = False
             else:
                 print(f"You've lost! The {win} turtle is winner!")
